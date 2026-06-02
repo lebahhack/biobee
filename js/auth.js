@@ -57,7 +57,7 @@ async function logout() {
   try {
 
     await fetch(
-      "https://api-biolink.lebahhack.workers.dev/logout",
+      "https://biolink.lebahhack.workers.dev/logout",
       {
         method: "POST",
         headers: {
@@ -127,7 +127,7 @@ async function currentUser() {
   try {
 
     const res = await fetch(
-      "https://api-biolink.lebahhack.workers.dev/me",
+      "https://biolink.lebahhack.workers.dev/me",
       {
         headers: {
           Authorization:
