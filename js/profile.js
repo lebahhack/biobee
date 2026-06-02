@@ -180,7 +180,7 @@ function renderLinks(
     "profile-link";
 
     a.href =
-    `https://api-biolink.lebahhack.workers.dev/r/${profile.username}/${link.id}`;
+    `https://biolink.lebahhack.workers.dev/r/${profile.username}/${link.id}`;
 
     a.target =
     "_blank";
