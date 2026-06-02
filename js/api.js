@@ -1,5 +1,5 @@
 const API_BASE =
-"https://api-biolink.lebahhack.workers.dev";
+"https://biolink.lebahhack.workers.dev";
 
 /* =========================
    TOKEN
